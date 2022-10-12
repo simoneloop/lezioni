@@ -1,6 +1,6 @@
 package lezioniCorsoJava;
 import java.util.*;
-public class concettiIntroduttivi {
+public class Lezione1 {
 //	tipi di base
 //	
 //	interi:
