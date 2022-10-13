@@ -17,7 +17,7 @@ public class Lezione1 {
 //		char
 		
 	
-	
+	//sysout then ctrl space
 	public static void main(String[]args) {
 		int a,b,c; //dichiarate ma non inizializzate
 		
