@@ -65,6 +65,25 @@ public class Lezione2 {
 			default: System.out.print("Questo mese è sconosciuto all'uomo");
 		}
 		
+		//spiegazione del perché serve la parentesi graffa
+		System.out.println();
+		int h=0;
+		int k=0;
+		
+		if(h==0)
+			h++;
+			k++;
+		System.out.println("h: "+h);
+		System.out.println("k: "+k);
+		for(int i=0;i<10;i++)
+			h++;
+			k++;
+		System.out.println("h: "+h);
+		System.out.println("k: "+k);
+		
+		//esempio migliore del do while
+		
+		
 		//for
 		//for(inizializzazione,condizione_di_continuazione;passo)
 		//	istruzione;semplice o blocco
@@ -104,8 +123,8 @@ public class Lezione2 {
 
 		long pp=(int)Math.pow(p,n);
 		System.out.println(p+"^"+n+"="+pp);
-		long maxInt=4294967295L;
-		System.out.println(maxInt);
+		long maxLong=4294967295L;
+		System.out.println(maxLong);
 		
 		
 	}

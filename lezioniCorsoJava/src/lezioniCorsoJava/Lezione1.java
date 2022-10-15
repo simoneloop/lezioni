@@ -18,8 +18,11 @@ public class Lezione1 {
 		
 	
 	//sysout then ctrl space
+	
 	public static void main(String[]args) {
 		int a,b,c; //dichiarate ma non inizializzate
+//		long maxLong=4294967295L;
+//		System.out.println(maxInt);
 		
 		a=3;b=1;c=1;//inizializzazione successiva
 		
