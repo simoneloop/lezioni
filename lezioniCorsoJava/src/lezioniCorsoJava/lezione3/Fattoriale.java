@@ -1,4 +1,4 @@
-package lezioniCorsoJava;
+package lezioniCorsoJava.lezione3;
 import java.util.*;
 
 public class Fattoriale {

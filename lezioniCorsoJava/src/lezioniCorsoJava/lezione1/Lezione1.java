@@ -1,4 +1,4 @@
-package lezioniCorsoJava;
+package lezioniCorsoJava.lezione1;
 import java.util.*;
 public class Lezione1 {
 //	tipi di base
