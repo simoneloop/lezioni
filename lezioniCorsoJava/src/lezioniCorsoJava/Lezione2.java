@@ -81,7 +81,7 @@ public class Lezione2 {
 		System.out.println("h: "+h);
 		System.out.println("k: "+k);
 		
-		//esempio migliore del do while
+		
 		
 		
 		//for
@@ -123,8 +123,7 @@ public class Lezione2 {
 
 		long pp=(int)Math.pow(p,n);
 		System.out.println(p+"^"+n+"="+pp);
-		long maxLong=4294967295L;
-		System.out.println(maxLong);
+		
 		
 		
 	}

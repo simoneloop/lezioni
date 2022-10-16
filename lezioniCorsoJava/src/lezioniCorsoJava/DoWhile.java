@@ -27,6 +27,7 @@ public class DoWhile {
 			numero=sc.nextInt();
 		}
 		while(numero>0);
+		//ma si poteva benissimamente fare con un while normale dichiarando la variabile prima
 	}
 
 }
