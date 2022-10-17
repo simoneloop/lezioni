@@ -1,5 +1,6 @@
 package lezioniCorsoJava.lezione3;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Lezione3 {
@@ -64,6 +65,12 @@ public class Lezione3 {
 
 		long pp=(int)Math.pow(p,n);
 		System.out.println(p+"^"+n+"="+pp);
+		
+		//potenza ma in metodi
+		
+		//nuova versione dello switch
+		//calcolo durata mese
+		
 	}
 
 }
