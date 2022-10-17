@@ -71,12 +71,11 @@ public class Stringhe {
 //		puntato dalla variabile messaggio e l'oggetto "Ciao XX"
 //		abbandonato a se stesso senza riferimenti.
 
-		//metodo contains
-		//metodo equals
-		String q="q";
-		String p="q";
-		System.out.println(p==q);
-
+		//metodo ritorna true se e solo se la stringa contiene la sequenza di caratteri specificati dal parametro s
+		//metodo equals ma per le stringhe funziona anche ==
+		//isEmpty ritorna true se e solo se la lunghezza della stringa è 0
+		//split suddivide la stringa intorno ad ogni occorrenza con l'espressione regex e ritorna array con tutte le sottostringhe
+		//trim ritorna una copia della stringa di partenza eliminando tutti gli spazi bianchi all'inizio e alla fine della stringa
 	}
 
 }
