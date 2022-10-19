@@ -1,4 +1,5 @@
 package lezioniCorsoJava.lezione3;
+import java.util.Arrays;
 
 public class Stringhe {
 	//Testi, messaggi e codici
@@ -21,6 +22,16 @@ public class Stringhe {
 		String sottotitolo = new String(arraySottotitolo);
 		
 		
+		String s="hello world";
+		String t="hello world";
+		System.out.println(s==t);
+		System.out.println(s.equals(t));//molto più sicuro e corretto utilizzare questa notazione perché per esempio:
+		//se fossero su un sistema distrubuito non sarebbero nella stessa pool
+		//funziona solo per le stringhe e non per altri oggetti, praticamente grazie alla string pool s e t sono la stessa stringa ripescata
+		//quindi in questo caso hanno lo stesso puntatore
+		//se no per gli altri oggetti ==controlla l'indirizzo di memoria
+		
+		
 		String descrizione = "Lezione sulle stringhe ...";
 		int length = descrizione.length();
 		System.out.println("Lunghezza: "+length);
@@ -34,6 +45,11 @@ public class Stringhe {
 		String str4 = "Nome"+"Cognome";
 		
 		String str5=str1+str2;
+		/*
+		 * La concatenazione di due stringhe in realtà genera automaticamente una nuova istanza di String il cui contenuto è
+		 *  costituito dai caratteri della prima e della seconda messi insieme 
+		 */
+		
 		System.out.println(str5);
 		
 		
@@ -65,6 +81,10 @@ public class Stringhe {
 		System.out.println(messaggio);
 		messaggio=messaggio.replace("XX", "Mondo");
 		System.out.println(messaggio);
+		//ma possiamo usare il replace anche per modificare più lettere es
+		String data="19/10/2022";
+		data=data.replace("/", "-");
+		System.out.println(data);
 		
 //		Ma questo significa abbandonare l'oggetto precedente.
 //		In altre parole avremo nella memoria il nuovo oggetto "Ciao Mondo" 
@@ -74,8 +94,13 @@ public class Stringhe {
 		//metodo ritorna true se e solo se la stringa contiene la sequenza di caratteri specificati dal parametro s
 		//metodo equals ma per le stringhe funziona anche ==
 		//isEmpty ritorna true se e solo se la lunghezza della stringa è 0
-		//split suddivide la stringa intorno ad ogni occorrenza con l'espressione regex e ritorna array con tutte le sottostringhe
 		//trim ritorna una copia della stringa di partenza eliminando tutti gli spazi bianchi all'inizio e alla fine della stringa
+		//split suddivide la stringa intorno ad ogni occorrenza con l'espressione regex e ritorna array con tutte le sottostringhe
+		String[] date=data.split("-");
+		System.out.println(date);
+		System.out.println(Arrays.toString(date));
+		
+		
 	}
 
 }
