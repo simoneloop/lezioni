@@ -16,19 +16,26 @@ public class Esercizi {
 	public class Matrici{
 		//il metodo leggi(m) riceve un oggetto array m già allocato dal main e provvede a riempirlo attraverso letture da input
 		static void leggi(int[][]m) {}
+
 		//il metodo scrivi(m) riceve un oggetto array m e ne visualizza il contenuto per righe su output
 		static void scrivi(int[][]m) {}
+
 		//il metodo trasposta(m) riceve una matrice m e costruisce e ritorna una nuova matrice con il contenuto trasposto di m
-		static int[][]trasposta(int[][]m){}
+		//static int[][]trasposta(int[][]m){}
+
 		//il metodo moltiplica(m1,m2) riceve due oggetti matrici già creati e costruisce e ritorna una nuova matrice contenente il prodotto di m1 per m2
-		static int[][]moltiplica(int[][]m1,int[][]m2){}
+		//static int[][]moltiplica(int[][]m1,int[][]m2){}
+		
 		//il metodo addiziona(m1,m2) è analogo a molitplica ma fa m1 più m2
-		static int[][]addiziona(int[][]m1,int[][]m2){}
+		//static int[][]addiziona(int[][]m1,int[][]m2){}
+		
 		//il metodo moltiplicaScalare(m,s) costruisce e ritorna la matrice m passata con ciscun elemento moltiplicato per lo scalare s
-		static int[][] moltiplicaScalare(int[][]m1,int s){}
+		//static int[][] moltiplicaScalare(int[][]m1,int s){}
+		
 		//il metodo simmetrice(m) restituisce true o false se la matrice è o meno simmetrica
 		//una matrice quadrata è simmetrica se coincide con la sua trasposta
-		static boolean simmetrica(int[][]m) {}
+		//static boolean simmetrica(int[][]m) {}
+		
 		public static void main(String[]args) {
 			//che implementi tutti i metodi definiti e ne mostri i risultati
 		}

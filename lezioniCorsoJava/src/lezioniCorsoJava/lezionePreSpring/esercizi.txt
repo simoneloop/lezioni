@@ -1,0 +1,6 @@
+TODO
+
+-metodo getByCF(String cf) che riceve in input un codice fiscale e printa su console le informazioni utente
+-implementare l'oggetto prodotto, con campi di oggetto: codice, prezzo, nome, e tutti i metodi necessari
+-aggiungere all'oggetto Persona un campo chiamato carrello contenente una lista di prodotti e i necessari metodi come add o remove per aggiungere prodotti al carrello
+-implementare per tutti i campi della persona i metodi che ne permettono di modificare i valori
